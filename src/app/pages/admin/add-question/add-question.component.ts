@@ -35,8 +35,8 @@ export class AddQuestionComponent implements OnInit {
     //this.qId = this._route.snapshot.params['this'].qId;
     this.qid = parseInt(this._route.snapshot.params['qid']);
     //this.qid = this._route.snapshot.params['qId'];
-   alert(this.qid);
-    console.log(this.qid);
+  //  alert(this.qid);
+  //   console.log(this.qid);
     this.qTitle = this._route.snapshot.params['title']
     // this.question.quiz['qId']=this.qId;
     // this.question.quiz['qTitle']=this.qTitle;
